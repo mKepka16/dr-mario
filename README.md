@@ -13,4 +13,4 @@
 
 ## Play now
 
-(click)[https://mkepka16.github.io/dr-mario/]
+[click](https://mkepka16.github.io/dr-mario/)

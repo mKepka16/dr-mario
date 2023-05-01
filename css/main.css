@@ -1,0 +1,109 @@
+body {
+    background: rgb(48, 46, 46);
+}
+
+.board, .animation-box {
+    z-index: 2;
+    position: absolute;
+    top: -97px;
+    left: -48px;
+}
+
+.animation-box {
+    z-index: 5;
+    left: 0;
+    top: -193px;
+}
+
+.frame-cell {
+    height: 16px;
+    width: 16px;
+    /* border: 2px solid yellow; */
+}
+
+.frame-cell > img {
+    height: 16px;
+    width: 16px;
+}
+
+.frame-cell > img[src=""] {
+    display: none;
+}
+
+.row {
+    display: flex;
+}
+
+.field {
+    height: 16px;
+    width: 16px;
+    /* border: 2px solid red; */
+}
+
+.backgroundImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.backgroundImage > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.eyeglass {
+    /* background: white; */
+    position: absolute;
+    left: -285px;
+    top: 13px;
+    width: 170px;
+    height: 170px;
+    border-radius: 85px;
+}
+
+.eyeglass > img {
+    width: 65px;
+    position: absolute;
+}
+
+.score, .top {
+    position: absolute;
+    left: -240px;
+    top: -65px;
+}
+
+.top {
+    top: -113px;
+}
+
+.virus-count-board {
+    position: absolute;
+    left: 240px;
+    top: 143px;
+    display: flex;
+}
+
+.score > img, .top > img, .virus-count-board > img {
+    width: 16px;
+}
+
+img.stage-info {
+    position: absolute;
+    z-index: 3;
+    width: 225px;
+    left: 18px;
+    top: -24px;
+    display: none;
+}
+
+img.doctor-game-over {
+    position: absolute;
+    left: 214px;
+    top: -89px;
+    z-index: 5;
+    width: 123px;
+    display: none;
+}
